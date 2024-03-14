@@ -1,0 +1,3 @@
+C:/Users/Sandex Union csgorum/CLionProjects/OP/cmake-build-debug/CMakeFiles/OP.dir
+C:/Users/Sandex Union csgorum/CLionProjects/OP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sandex Union csgorum/CLionProjects/OP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
