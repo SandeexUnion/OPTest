@@ -1,2 +1,4 @@
 add_library(data_structures
-bitset/bitset.c)
+        bitset/bitset.c
+        vector/vector.c
+)
