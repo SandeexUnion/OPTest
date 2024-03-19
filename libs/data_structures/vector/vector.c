@@ -11,6 +11,12 @@ void* validateMemory(void* memory) {
 
     return memory;
 }
+void validateIndex(vector* vec, size_t index) {
+    if (index >= vec->size) {
+        fprintf(stderr, "Invalid index %zu for size %zu", index, vec->size);
+        exit(1);
+    }
+}
 vector createVector(size_t capacity) {
     return (vector) {
             validateMemory(malloc(capacity * sizeof(int))),
@@ -69,4 +75,18 @@ void popBack(vector *v) {
     }
 
     v->size--;
+}
+int* atVector(vector *vec, size_t index) {
+    validateIndex(vec, index);
+    return &(vec->data[index]);
+}
+
+
+int* back(vector* vec) {
+    return atVector(vec, vec->size - 1);
+}
+
+
+int* front(vector* vec) {
+    return atVector(vec, 0);
 }

@@ -10,6 +10,7 @@ add_library(OP library.c
         libs/algorithms/array/array.h
         libs/algorithms/array/array.h
         main.c
-        libs/data_structures/vector/vector.c)
+        libs/data_structures/vector/vector.c
+        vec.c)
 target_link_libraries(OP data_structures)
 target_link_libraries(OP algorithms)
