@@ -73,6 +73,12 @@ build CMakeFiles/OP.dir/vec.c.obj: C_COMPILER__OP_unscanned_Debug C$:/Users/Sand
   OBJECT_DIR = CMakeFiles\OP.dir
   OBJECT_FILE_DIR = CMakeFiles\OP.dir
 
+build CMakeFiles/OP.dir/libs/data_structures/vector/vectorVOID.c.obj: C_COMPILER__OP_unscanned_Debug C$:/Users/Sandex$ Union$ csgorum/CLionProjects/OP/libs/data_structures/vector/vectorVOID.c || cmake_object_order_depends_target_OP
+  DEP_FILE = CMakeFiles\OP.dir\libs\data_structures\vector\vectorVOID.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OP.dir
+  OBJECT_FILE_DIR = CMakeFiles\OP.dir\libs\data_structures\vector
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target OP
@@ -81,7 +87,7 @@ build CMakeFiles/OP.dir/vec.c.obj: C_COMPILER__OP_unscanned_Debug C$:/Users/Sand
 #############################################
 # Link the static library libOP.a
 
-build libOP.a: C_STATIC_LIBRARY_LINKER__OP_Debug CMakeFiles/OP.dir/library.c.obj CMakeFiles/OP.dir/main.c.obj CMakeFiles/OP.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/OP.dir/vec.c.obj
+build libOP.a: C_STATIC_LIBRARY_LINKER__OP_Debug CMakeFiles/OP.dir/library.c.obj CMakeFiles/OP.dir/main.c.obj CMakeFiles/OP.dir/libs/data_structures/vector/vector.c.obj CMakeFiles/OP.dir/vec.c.obj CMakeFiles/OP.dir/libs/data_structures/vector/vectorVOID.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\OP.dir
   POST_BUILD = cd .
