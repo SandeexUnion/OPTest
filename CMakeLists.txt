@@ -13,6 +13,9 @@ add_library(OP library.c
         libs/data_structures/vector/vector.c
         vec.c
         libs/data_structures/vector/vectorVOID.h
-        libs/data_structures/vector/vectorVOID.c)
+        libs/data_structures/vector/vectorVOID.c
+        libs/data_structures/matrix/matrix.h
+        libs/data_structures/matrix/matrix.c
+        matrix_test.c)
 target_link_libraries(OP data_structures)
 target_link_libraries(OP algorithms)
