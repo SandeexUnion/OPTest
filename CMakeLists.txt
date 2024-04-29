@@ -11,6 +11,7 @@ add_executable(course main.c
         libs/data_structures/string/string_.c
         libs/data_structures/string/string_.h
         libs/data_structures/string/string_.h
+        libs/data_structures/string/string_.c
         libs/data_structures/string/string_.c)
 
 add_subdirectory(libs)
