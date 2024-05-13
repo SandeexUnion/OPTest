@@ -163,5 +163,5 @@ void appendMissingWords(char *string_1, char *string_2);
 
 // Определяет, входит ли в данную строку каждая буква данного слова
 int isStringIncludeLetters(char *string, char *word);
-
+void wordDescriptorToString(WordDescriptor word, char *destination);
 #endif //STRING__H

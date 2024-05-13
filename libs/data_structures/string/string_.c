@@ -255,6 +255,9 @@ void replace(char *source, char *w1, char *w2) {
 
     *read_position = '\0';
 }
+void wordDescriptorToString(WordDescriptor word, char *destination) {
+    copy(word.begin, word.end, destination);
+}
 void getBagOfWords(BagOfWords *bag, char *string) {
     WordDescriptor word_res;
 
