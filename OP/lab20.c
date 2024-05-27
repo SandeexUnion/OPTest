@@ -1,14 +1,14 @@
 #include "lab20.h"
 #include <stdio.h>
-#include "C:\Users\andre\CLionProjects\Project\libs\data_structures\matrix\matrix.h"
+#include "C:\Users\Sandex Union csgorum\CLionProjects\OP\libs\data_structures\matrix\matrix.h"
 #include <assert.h>
 #include <malloc.h>
 #include <string.h>
 #include <signal.h>
 #include <time.h>
 #include <unistd.h>
-#include "C:\Users\andre\CLionProjects\Project\libs\data_structures\string\string_.h"
-#include "C:\Users\andre\CLionProjects\Project\libs\data_structures\files\files.h"
+#include "C:\Users\Sandex Union csgorum\CLionProjects\OP\libs\data_structures\string\string_.h"
+#include "C:\Users\Sandex Union csgorum\CLionProjects\OP\libs\data_structures\files\files.h"
 
 int** task_1(int n, int query[][4], size_t size) {
     matrix result = getMemMatrix(n, n);
@@ -635,7 +635,7 @@ void test_lab20() {
     //test_task_8();
     //test_task_7();
     test_task_11();
-}git add .//
+}//
 // Created by Sandex Union csgorum on 27.05.2024.
 //
 
